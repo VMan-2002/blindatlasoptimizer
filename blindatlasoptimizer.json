@@ -1,0 +1,17 @@
+{
+	"id": "BlindAtlasOptimizer",
+	"name": "BlindAtlasOptimizer",
+	"author": ["VMan_2002"],
+    "badge_colour": "0077ff",
+	"description": "Animation atlas optimizer lol - Proposal to implement into Steamodded",
+	"prefix": "bao",
+	"main_file": "blindatlasoptimizer.lua",
+    "version": "0.0.0",
+    "priority": 0,
+    "dependencies": [
+        "Steamodded (>=1.0.0~ALPHA-1424a)",
+        "Lovely (>=0.6.0)"
+    ],
+    "conflicts": [
+    ]
+}
