@@ -17,4 +17,5 @@ function AnimatedSprite:set_sprite_pos(...)
 	local r = set_sprite_pos_ref(self, ...)
 	self.current_animation.firstframes = self.atlas.firstframes or 0
 	self.current_animation.frames = self.current_animation.frames + self.current_animation.firstframes
+	return r
 end
